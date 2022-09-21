@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <meta name="description" content="personal portifolio">
+        <meta name="keywords" content="cv">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link rel="stylesheet" href="css/cv.css">
+    </head>
+    <body>
+        <!-- header -->
+        <div class="header">
+            <div class="container">
+                <ul>
+                    <li><a href="https://m.facebook.com/desha.mohamed.186" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li onclick="gmail()"><a href="#"><ion-icon name="mail-outline"></ion-icon><span id="gmail"></span></a></li>
+                    <li onclick="number()"><a href="#"><ion-icon name="call-outline" target="_blank" ></ion-icon><span id="x"></span></a></li>
+                    <div id="maker"></div>
+                </ul>
+            </div>
+        </div>
+        <!-- produce  -->
+        <div class="prod" id="prod">
+            <div class="container">
+                <div class="content">
+                    <h3>Mostafa Mohamed Mitualiy</h3>
+                    <p>Accountant</p>
+                </div>
+                <div class="image">
+                    <div class="b">
+                        <div class="con">
+                            <a href="imag/20576561-2ed2-449f-a18c-4990e2a54658.jpg"><img src="imag/20576561-2ed2-449f-a18c-4990e2a54658.jpg" alt="personal img"></a>
+                            <h2>see a pic</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Certificates -->
+        <div class="Certificates">
+            <div class="division"><h2 data-text="creative...">creative...</h2></div>
+            <div class="container">
+                <div class="card1">
+                    <div class="card">
+                        <div class="contectbx">
+                            <div class="contentt">
+                                <h2>certificate<br><span>Graduation</span></h2>
+                                <div class="imgbx">
+                                    <img src="imag/CER2.jpg" alt="">
+                                </div>
+                                <a href="imag/CER2.jpg">dwonload</a>
+                            </div>
+                        </div>
+                        <div class="toggle" onclick="ss(0)">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card">
+                        <div class="contectbx">
+                            <div class="contentt">
+                                <h2>certificate<br><span>accountant Diploma</span></h2>
+                                <div class="imgbx">
+                                    <img src="imag/CER.jpg" alt="">
+                                </div>
+                                <a href="imag/CER.jpg">dwonload</a>
+                            </div>
+                        </div>
+                        <div class="toggle" onclick="ss(1)">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience  -->
+        <div class="Experience">
+            <div class="division"><h2 data-text="Experience...">Experience...</h2></div>
+            <div class="container">
+                <div class="box">
+                    <div class="lable">ongoing</div>
+                    <h3>accountant</h3>
+                    <h5>a company Dragon for clothes</h5>
+                    <div class="date">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>22/2/2021</span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Egypt</span>
+                    </div>
+                    <ul>
+                        <li>Oversees basic financial documents and accounting books by recording financial operations in the department's books.</li>
+                        <li>Records purchases and sales according to official invoices</li>
+                        <li>Documents entries, records, exchange documents, and all the papers that support them related to the department's accounts.</li>
+                        <li>The trial balance is prepared on a monthly basis.</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Editor</h3>
+                    <h5>Engineering Consulting Office</h5>
+                    <div class="date">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>15/01/2019</span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Egypt</span>
+                    </div>
+                    <ul>
+                        <li>Feasibility study of projects</li>
+                        <li>Communicate with clients and provide services to them</li>
+                        <li>Preparing a worksheet using Excel</li>
+                        <li>Send and receive emails from clients</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Skills  -->
+        <div class="Skills">
+            <div class="division"><h2 data-text="Skills...">Skills...</h2></div>
+            <div class="container">
+                <div class="cardd">
+                    <div class="persent" style="--clr:#04fc43; --num:95";>
+                        <div class="dott"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h2>95 <span>%</span></h2>
+                            <p>Excel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardd">
+                    <div class="persent" style="--clr:#4604fc; --num:70";>
+                        <div class="dott"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h2>70 <span>%</span></h2>
+                            <p>word</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <p>&copy; <span>2022</span> All Right Reserved</p>
+        </div>
+        <script src="js/cv.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
